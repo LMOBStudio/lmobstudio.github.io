@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMOB Studio | Oyun ve Animasyon</title>
+    <!-- Google aramasında büyük logo gözükmesi için -->
+    <link rel="icon" type="image/webp" href="ff6b4d4a-f2a8-4616-a064-d650484adcd0.webp">
     <style>
         body {
             background-color: #0d1117;
@@ -16,6 +18,15 @@
         header {
             padding: 50px 20px;
             background: linear-gradient(135deg, #1f1a3a, #0d1117);
+        }
+        .studio-logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #58a6ff;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(88, 166, 255, 0.3);
         }
         h1 {
             color: #58a6ff;
@@ -56,6 +67,8 @@
 <body>
 
     <header>
+        <!-- Yüklediğin o uzun isimli logoyu doğrudan buraya bağladık -->
+        <img src="ff6b4d4a-f2a8-4616-a064-d650484adcd0.webp" alt="LMOB Studio Logo" class="studio-logo">
         <h1>LMOB Studio</h1>
         <p>Sonermob Tarafından Kurulan Bağımsız Oyun ve Animasyon Stüdyosu</p>
         <span class="badge">Mobil Oyunlar & Godot Engine</span>
